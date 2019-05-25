@@ -1,0 +1,39 @@
+@charset "utf-8";
+
+
+
+
+table#eventTable {
+   margin-top: 30px;
+   width: 100%;
+   font-size: 0.75em;
+   border-collapse: collapse;
+}
+
+table#eventTable td, table#eventTable th {
+   padding: 5px;
+   vertical-align: top;
+   border: 1px solid black;
+}
+
+table#eventTable caption {
+   font-size: 2em;
+   letter-spacing: 0.03em;
+   margin: 0px 0px 10px;
+   color: rgb(101, 101, 131);
+}
+
+table#eventTable th {
+   background-color: green;
+   color: white;
+   font-weight: normal;
+}
+
+table#eventTable tr:nth-of-type(even) {
+   background-color: lightgreen;
+}
+
+table#eventTable tr:nth-of-type(odd) {
+   background-color: pink;
+}
+
